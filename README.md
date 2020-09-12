@@ -1,2 +1,2 @@
 # katherinePrograParalela
-Repositorio para subir las tareas de Programaci
+Repositorio para subir las tareas de Programacion Paralela y Concurrente
