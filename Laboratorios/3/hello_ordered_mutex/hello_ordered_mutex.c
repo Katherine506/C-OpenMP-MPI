@@ -82,14 +82,14 @@ int main(int argc, char* arg[]) {
 
     for (size_t i = 0; i < thread_count; i++)
     {
-        if (i == 0)
-        {
-            pthread_mutex_init(&mutex_array[i], 1);
-        }
-        else
-        {
-            pthread_mutex_init(&mutex_array[0], 0);
-        }
+        //if (i == 0)
+        //{
+           // pthread_mutex_init(&mutex_array[i], NULL);
+        //}
+        //else
+       // {
+            pthread_mutex_init(&mutex_array[i], NULL);
+        //}
     }
 
      //crea el thread

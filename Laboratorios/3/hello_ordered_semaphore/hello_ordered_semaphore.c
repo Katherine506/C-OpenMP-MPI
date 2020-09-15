@@ -82,7 +82,7 @@ int main(int argc, char* arg[]) {
 	if(i == 0){
 		sem_init(&semaphores[i], 0, 1);
 	}else{
-    		sem_init(&semaphores[i], 0, 0);
+    	sem_init(&semaphores[i], 0, 0);
 	}
     }
 	 
