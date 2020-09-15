@@ -1,3 +1,4 @@
+#Katherine
 compile:
 	gcc ejercicio1.c -o ejercicio1 -pthread
 
